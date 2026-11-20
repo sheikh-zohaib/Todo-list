@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: #fffdd0;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    color: grey;
+    margin-top: 2px;
+}
+
+#todo-inp {
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #006400;
+    color: white;
+    border: none;
+}
+
+.todo {
+    background: #e8f5e9;
+    padding: 8px;
+    margin-top: 8px;
+    border-left: 4px solid #006400;
+}
+
+.done-task {
+    background: #c9f5c9;
+    text-decoration: line-through;
+}
