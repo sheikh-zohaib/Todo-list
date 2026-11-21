@@ -1,24 +1,16 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do Project</title>
-    <link rel="stylesheet" href="style.css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Todo List</h1>
+  <input id="todo-input" placeholder="Add todo..." />
+  <button id="add-btn">Add</button>
+  <ul id="todo-list"></ul>
 
-    <h1>To Do List</h1>
-    
-
-    <input type="text" id="todo-inp" placeholder="enter the name">
-    <button id="addBtn" onclick="addTodo()">add</button>
-    <button onclick="delAllTodos()">delete all</button>
-
-    <div id="todoList"></div>
-
-    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-    <script src="app.js/app.js"></script>
+  <script type="module" src="app.js/firebase.js"></script>
+  <script type="module" src="app.js/app.js"></script>
 </body>
 </html>
